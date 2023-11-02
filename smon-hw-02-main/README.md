@@ -47,7 +47,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
-![Zabbix поле авторизации](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img1.png)
+![Zabbix поле авторизации](https://github.com/wintercomesX/smon-hw-02/tree/main/smon-hw-02-main/img/img1.png)
 ![Zabbix](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img2.png)
 
 
