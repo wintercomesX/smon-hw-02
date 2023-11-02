@@ -48,7 +48,7 @@ systemctl enable zabbix-server zabbix-agent apache2
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
 ![Zabbix поле авторизации](https://github.com/wintercomesX/smon-hw-02/tree/main/smon-hw-02-main/img/img1.PNG)
-![Zabbix](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img2.png)
+![Zabbix](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img2.PNG)
 
 
 ---
@@ -73,11 +73,11 @@ nano /etc/zabbix/zabbix_agentd.conf
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
-![Конфиг агента](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img3.png)
-![Отображение хостов в админке](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img4.png)
-![Лог заббикс агента](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img5.png)
-![Отображение системной информации хоста 1](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img6.png)
-![Отображение системной информации хоста 2](https://github.com/wintercomesX/smon-hw-02/edit/main/smon-hw-02-main/img/img6_1.png)
+![Конфиг агента](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img3.PNG)
+![Отображение хостов в админке](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img4.PNG)
+![Лог заббикс агента](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img5.PNG)
+![Отображение системной информации хоста 1](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img6.PNG)
+![Отображение системной информации хоста 2](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img6_1.PNG)
 
 
 ---
