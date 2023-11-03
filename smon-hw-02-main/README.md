@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Кандала Кирилл`
+# Домашнее задание к занятию "`Система мониторинга Zabbix. Часть 2`" - `Кандала Кирилл`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -26,83 +26,44 @@
 
 `Приведите ответ в свободной форме........`
 
-1. `Устанавливаем postgres`
-2. `По инструкции с офф сайта ставим заббикс`
-3. `открываем фронт заббикса`
-4. `Авторизуемся`
+1. `Создаем Template`
+2. `Создаем Item на проверку CPU и RAM`
+3. `...`
+4. `...`
 ```
 Поле для вставки кода...
-apt install postgresql
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
-dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
-apt update
-apt install zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent
-su - postgres -c 'pgsql --command "CREATE USER zabbix WITH PASSWORD '\'123456789\'';"'
-su - postgres -c 'pgsql --command "CREATE DATABASE zabbix OWNER zabbix;"'
-zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-nano /etc/zabbix/zabbix_server.conf
-systemctl restart zabbix-server zabbix-agent apache2
-systemctl enable zabbix-server zabbix-agent apache2
+
 ```
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
-![Zabbix поле авторизации](https://github.com/wintercomesX/smon-hw-02/tree/main/smon-hw-02-main/img/img1.PNG)
-![Zabbix](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img2.PNG)
+
+![Задание 1](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img1.PNG)
 
 
 ---
 
-### Задание 2
+### Задание 2-3
 
 `Приведите ответ в свободной форме........`
 
-1. `Устанавливаем заббикс агента`
-2. `Вносим нужный сервер в список доступных`
-3. `Рестартим агента`
-4. `Проверяем работоспособность и передачу системной информации на главный сервер` 
+1. `Присоединяем 2 хоста к мониторингу`
+2. `Применяем Template к хостам`
+3. `Шаблон Linux by Zabbix Agent применить невозможно т.к. он содержит задачи по сбору информации о CPU и RAM`
 
 ```
 Поле для вставки кода...
-wget https://repo.zabbix.com/zabbix/6.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.0-4+ubuntu22.04_all.deb
-dpkg -i zabbix-release_6.0-4+ubuntu22.04_all.deb
-apt update
-apt install zabbix-agent
-nano /etc/zabbix/zabbix_agentd.conf
+
 ```
 
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
-![Конфиг агента](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img3.PNG)
-![Отображение хостов в админке](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img4.PNG)
-![Лог заббикс агента](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img5.PNG)
-![Отображение системной информации хоста 1](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img6.PNG)
-![Отображение системной информации хоста 2](https://github.com/wintercomesX/smon-hw-02/blob/main/smon-hw-02-main/img/img6_1.PNG)
+
+![Отображение хостов в админке](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img2.PNG)
+![Отображение информации в Latest Data](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img4.PNG)
 
 
 ---
-
-### Задание 3
-
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
 
 ### Задание 4
 
@@ -126,6 +87,7 @@ nano /etc/zabbix/zabbix_agentd.conf
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота](ссылка на скриншот)`
 
+![Дашборды](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img3.PNG)
 ---
 ## Дополнительные задания (со звездочкой*)
 
