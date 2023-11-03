@@ -38,7 +38,7 @@
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 1](ссылка на скриншот 1)`
 
-![Задание 1](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img1.PNG)
+![Задание 1](https://github.com/wintercomesX/smon-hw-02/tree/main/hw-03/img/img1.png)
 
 
 ---
@@ -59,8 +59,8 @@
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
 
-![Отображение хостов в админке](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img2.PNG)
-![Отображение информации в Latest Data](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img4.PNG)
+![Отображение хостов в админке](https://github.com/wintercomesX/smon-hw-02/tree/main/hw-03/img/img2.png)
+![Отображение информации в Latest Data](https://github.com/wintercomesX/smon-hw-02/tree/main/hw-03/img/img4.png)
 
 
 ---
@@ -87,7 +87,8 @@
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота](ссылка на скриншот)`
 
-![Дашборды](https://github.com/wintercomesX/smon-hw-02/hw-03/img/img3.PNG)
+![Дашборды](https://github.com/wintercomesX/smon-hw-02/tree/main/hw-03/img/img3.png)
+
 ---
 ## Дополнительные задания (со звездочкой*)
 
