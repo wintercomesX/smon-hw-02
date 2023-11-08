@@ -58,7 +58,7 @@
 `При необходимости прикрепитe сюда скриншоты
 ![Название скриншота 2](ссылка на скриншот 2)`
 
-[Задание 2](https://github.com/wintercomesX/8-01/commit/1b0e5f414c295ac79557a3d7626e40740ce41d36)
+[Задание 2](https://github.com/wintercomesX/8-01/commit/a51d27e32458f21c4fcc2388a944a53aeb14d3be)
 
 
 ---
